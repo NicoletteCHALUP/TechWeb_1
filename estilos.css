@@ -1,0 +1,62 @@
+/* Estilo para todo el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Fuente de texto para el cuerpo del documento */
+    margin: 0; /* Elimina el margen exterior */
+    padding: 0; /* Elimina el relleno interior */
+    background-color: #f0f0f0; /* Color de fondo del cuerpo del documento */
+}
+
+/* Estilo para el contenedor principal */
+.contenedor {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Relleno interior del contenedor */
+    text-align: center; /* Alineación del texto al centro dentro del contenedor */
+    background-color: #eebfe9; /* Color de fondo del contenedor */
+}
+
+/* Estilo para los títulos */
+h1 {
+    color: #333; /* Color del texto del título */
+}
+
+/* Estilo para las tarjetas de los perritos */
+.tarjeta {
+    background-color: #fff; /* Color de fondo de las tarjetas */
+    border-radius: 5px; /* Borde redondeado de las tarjetas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de las tarjetas */
+    padding: 20px; /* Relleno interior de las tarjetas */
+    margin: 20px 0; /* Margen entre las tarjetas */
+}
+
+/* Estilo para las imágenes dentro de las tarjetas */
+.tarjeta img {
+    border-radius: 5px; /* Borde redondeado de las imágenes */
+    margin-bottom: 10px; /* Margen inferior de las imágenes */
+}
+
+/* Estilo para las clases "raza" y "edad" */
+.raza, .edad {
+    display: block; /* Hace que los elementos sean bloque (ocupan toda la línea) */
+    color: #666; /* Color del texto de las clases */
+    margin-bottom: 5px; /* Margen inferior de las clases */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: hwb(189 55% 7%); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde en el botón */
+    padding: 10px 20px; /* Relleno interior del botón */
+    text-align: center; /* Alineación del texto al centro dentro del botón */
+    text-decoration: none; /* Sin decoración de texto en el botón */
+    display: inline-block; /* Se muestra como un bloque en línea */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    border-radius: 5px; /* Borde redondeado del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Estilo para el botón cuando se pasa el cursor sobre él */
+button:hover {
+    background-color: #64def0; /* Cambia el color de fondo del botón al pasar el cursor */
+}
